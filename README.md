@@ -15,3 +15,4 @@ A simple calculator module with basic arithmetic operations and tests.
 
 ## Testing
 The project includes automated tests that run on every push and pull request through GitHub Actions. 
+readme updated
