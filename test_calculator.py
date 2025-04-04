@@ -24,3 +24,10 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0) 
+
+def test_multipily_by_one_not_zero():
+    assert multiply(1, 9) == 9
+
+def test_multiply_by_one_zero():
+    assert multiply(1, 0) == 0
+
